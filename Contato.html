@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="public/css/devaria.css"/>
         <link rel="stylesheet" href="public/css/header.css" />
         <link rel="stylesheet" href="public/css/footer.css"/>
+        <link rel="stylesheet" href="public/css/fale-conosco.css"/>
         
         <title>Fale Conosco</title>
     </head>
@@ -27,16 +28,16 @@
 
         </header>
         <main>
-            <h2>Para mandar uma mensagem para a Devaria preencha abaixo e clique em enviar:</h2>
+            <h2 class="text-justify" class="sub-title">Para mandar uma mensagem para a Devaria preencha abaixo e clique em enviar:</h2>
             <section>
-                <form action="index.html">
-                    <p>
+                <form action="index.html" class="contact-form" class="margin-horizontal-20px">
+                    <div>
                         <label>Nome:</label><input type="text" name="Nome" maxlength="70" />
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>E-mail:</label><input type="text" name="Email" maxlength="150" />
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Sexo</label>
                         <select name="Sexo"> 
                             <option>Feminino</option>
@@ -44,8 +45,8 @@
                             <option>Outros</option>
                             <option>Desejo não Informar</option>
                         </select>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Aonde nos conheceu?</label>
                         <select name="Conheceu">
                             <option selected>YouTube</option>
@@ -53,19 +54,19 @@
                             <option>Amigos</option>
                             <option>Outros</option>
                         </select>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <label>Comentário:</label>
                         <textarea name="Comentario" rows="4" cols="50"></textarea>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <input type="checkbox" name="Novidades" value="Aceite" />
                         <label>Aceito receber e-mail de novidades.</label>
-                    </p>
-                    <p>
+                    </div>
+                    <div>
                         <input type="button" name="Enviar" value="Enviar" />
                         <input type="reset" name="Limpar" value="Limpar" />
-                    </p>
+                    </div>
                 </form>
             </section>
         </main>
