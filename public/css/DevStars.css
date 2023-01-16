@@ -1,0 +1,37 @@
+/* Estilos da página DevStars */
+
+h2, h3 {
+    text-align: center;
+}
+
+main .table, th, td {
+    border: 1px solid #5e49ff;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+main .table th {
+    text-align: center;
+    color: #1c0c3f;
+    width: 25%;
+    background-color: #3bd42d;
+
+}
+
+
+main .table td {
+    text-align: center;
+    width: 25%;
+    padding: 5px;
+}
+
+main .table {
+    width: 95%;
+}
+
+@media screen and (min-width: 992px) {
+    main .table {
+        width: 60%;
+        margin-bottom: 30px;
+    }
+}
